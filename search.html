@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/489f5640c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Plant A Tree</title>
+    <link rel="icon" href="./images/logo.png" />
+  </head>
+  <body id="top">
+    <section class="header-menu" id="header-menu">
+      <div class="container-fluid px-0 shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="./images/logo.png" alt="Plant" class="logo" />
+          <a
+            class="navbar-brand"
+            href="https://www.youtube.com/watch?v=WJ7eD6A4LlE"
+            >Plant A Tree</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./category.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+
+              <a href="./search.html">
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0 search-btn"
+                  type="button"
+                >
+                  Search
+                </button>
+              </a>
+              <a href="cart.html"
+                ><i class="fas fa-shopping-cart shop-icon"></i
+              ></a>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="search py-5 my-5" id="search">
+      <div class="container">
+        <div class="mb-5 text-center">
+          <h1 class="product-heading">
+            <i class="fa fa-file" aria-hidden="true"></i>Search
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="form-group">
+              <label>Search Here</label>
+              <input type="text" class="form-control" value="Plants" />
+              <button
+                type="button"
+                class="btn btn-success btn-lg btn-block mt-1"
+              >
+                <i class="fa fa-search" aria-hidden="true"></i>Search
+              </button>
+
+              <small id="emailHelp" class="form-text text-muted"
+                >Showing all result matching "Plants"</small
+              >
+            </div>
+            <div class="table-responsive mt-5">
+              <table class="table table-hover">
+                <tbody class="border-bottom">
+                  <tr>
+                    <td class="number text-center">1</td>
+                    <td class="image">
+                      <img
+                        src="./images/pot.jpg"
+                        width="100px"
+                        class="img-img-fluid rounded"
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>1 Product</strong><br />Pot Included
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star-half"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">$30</td>
+                  </tr>
+                </tbody>
+                <tbody class="border-bottom">
+                  <tr>
+                    <td class="number text-center">2</td>
+                    <td class="image">
+                      <img
+                        src="./images/cactus.jpg"
+                        width="100px"
+                        class="img-img-fluid rounded"
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>3 Product</strong><br />Pot Excluded
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">$30-$70</td>
+                  </tr>
+                </tbody>
+                <tbody class="border-bottom">
+                  <tr>
+                    <td class="number text-center">3</td>
+                    <td class="image">
+                      <img
+                        src="./images/table.jpg"
+                        width="100px"
+                        class="img-img-fluid rounded"
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>5 Product</strong><br />Pot Included
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">$30-$1000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer pb-2 pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-6 pl-5 pl-small-15 footer-first">
+            <img
+              src="./images/logo.png"
+              alt="Plant A Tree"
+              class="img img-fluid"
+            />
+            <div class="plant-foot-text">
+              It is the time we must put a restriction on the cutting of trees
+              and encourage other people to plant more of them.
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+              <h1>Quick Links</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Offers & Discounts</a></li>
+                <li><a href="#">Get Coupons</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+              <h1>New Products</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">Daylight Plants</a></li>
+                <li><a href="#">Night Plants</a></li>
+                <li><a href="#">Cactus</a></li>
+                <li><a href="#">Flowers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+              <h1>Support</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Report</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="border-top">
+          <a href="https://github.com/Tushardeepak"
+            ><h6 class="text-center mt-3">Copyright @Tushardeepak</h6></a
+          >
+        </div>
+      </div>
+    </footer>
+    <div class="backtop">
+      <a
+        href="#top"
+        id="button"
+        class="btn btn-lg btn-outline-success"
+        role="button"
+      >
+        <i class="fas fa-chevron-up text-dark"></i>
+      </a>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

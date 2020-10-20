@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 3vw;
+  width: 5vw;
+}
+.navbar {
+  background-color: rgb(3, 163, 3) !important;
+  font-family: "Piazzolla", serif;
+}
+.navbar-brand {
+  font-weight: 800;
+  color: rgb(19, 97, 19) !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.search-btn {
+  color: #fff;
+  border-color: #fff;
+}
+.shop-icon {
+  height: 20px;
+  width: 20px;
+  font-size: 1.6rem;
+  margin: 0 20px;
+  color: rgb(19, 97, 19);
+  cursor: pointer;
+}
+.shop-icon:hover {
+  color: rgb(10, 58, 10);
+}
+.header-image {
+  height: 45vw;
+}
+.carousel {
+  font-family: "Piazzolla", serif;
+  text-shadow: 2px 2px 5px black;
+}
+.carousel-head {
+  font-size: 30px;
+}
+.carousel-para {
+  font-size: 20px;
+}
+.product-heading {
+  text-align: center;
+  font-family: "Piazzolla", serif;
+  margin: 50px 0;
+  font-size: 50px;
+}
+.product-section {
+  margin: 0 10vw;
+}
+.card-deck {
+  margin: 0 50px;
+}
+.card-body-pro {
+  transition: all 0.5s ease-in-out;
+}
+.card-body-pro:hover {
+  box-shadow: 0 0 10px gray;
+}
+.category {
+  box-shadow: 0 0 5px grey;
+  border-radius: 0px;
+  margin: 0px 50px;
+  padding: 40px;
+}
+.cta-card {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.cta-card:hover {
+  box-shadow: 0 0 10px gray;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: rgb(2, 58, 2);
+  color: #fff;
+}
+.plant-foot-text {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Piazzolla", serif;
+}
+.footer_links {
+  color: #fff;
+  font-weight: 600;
+  margin: 10px 20px;
+}
+.footer_links li {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.footer_links li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.footer_links li a:hover {
+  color: green;
+}
+.footer_title {
+  color: rgb(4, 156, 4) !important;
+  font-family: "Piazzolla", serif;
+}
+.border-top a {
+  color: green;
+  text-decoration: none;
+}
+.backtop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*Product page*/
+.single-product-img {
+  height: 250px;
+  width: 100%;
+}
+.product-rating i {
+  color: goldenrod;
+  letter-spacing: 10px;
+}
+.product-card {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.product-card:hover {
+  box-shadow: 0 0 5px grey;
+}
+.form-control-range {
+  outline: none;
+  border: none;
+}
+/*Product page*/
+.card a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+/*Product-details page*/
+.pro-detail-img {
+  width: 5rem;
+  height: 25rem;
+}
+.carousel-indicators {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.carousel-indicators img {
+  border: 2px solid #fff;
+  padding: 5px;
+  opacity: 1 !important;
+}
+.catagory a {
+  text-decoration: none;
+  color: green;
+}
+.quantity {
+  outline: none;
+  border: 1px solid green;
+}
+/*Product-details page*/
+/*Cart page*/
+.cart-heading {
+  text-align: left;
+  font-family: "Piazzolla", serif;
+  margin: 50px 0;
+  font-size: 50px;
+}
+.cart-btn {
+  padding: 2px 5px !important;
+  margin-bottom: 3px !important;
+}
+.remove-item {
+  color: rgb(219, 126, 3);
+  cursor: pointer;
+}
+.checkout a {
+  text-decoration: none;
+}
+/*Cart page*/
+/*biling page*/
+.bill-heading {
+  text-align: center;
+  font-family: "Piazzolla", serif;
+  margin: 50px 0;
+  font-size: 40px;
+}
+.lastName {
+  margin: 0 80px !important;
+}
+.fa-leaf {
+  margin-right: 10px;
+}
+/*biling page*/
+/*about page*/
+.about-heading {
+  text-align: left;
+}
+.boy {
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+  border: 5px solid green;
+}
+.test-me {
+  font-family: "Piazzolla", serif;
+  font-size: 2vw !important;
+}
+.test {
+  text-shadow: 5px rgb(180, 180, 180);
+  font-size: 1.7vw;
+  font-family: "Piazzolla", serif;
+}
+.test-para {
+  text-shadow: 5px rgb(180, 180, 180);
+  font-size: 1.3vw;
+  font-family: "Piazzolla", serif;
+  text-align: start !important;
+}
+.testi-star {
+  color: yellow;
+  margin-left: 10px;
+}
+.ser .fa {
+  font-size: 5rem;
+  color: rgb(2, 63, 2);
+}
+.ser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.testi-box {
+  padding: 0 50px;
+}
+/*about page*/
+/*search page*/
+.fa-file {
+  color: rgb(3, 92, 3);
+  margin-right: 30px;
+}
+.fa-search {
+  margin-right: 10px;
+}
+.fa-star {
+  color: goldenrod;
+}
+.fa-star-half {
+  color: goldenrod;
+}
+/*search page*/

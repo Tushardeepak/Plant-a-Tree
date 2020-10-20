@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/489f5640c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Plant A Tree</title>
+    <link rel="icon" href="./images/logo.png" />
+  </head>
+  <body id="top">
+    <section class="header-menu" id="header-menu">
+      <div class="container-fluid px-0 shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="./images/logo.png" alt="Plant" class="logo" />
+          <a class="navbar-brand" href="https://www.youtube.com/watch?v=WJ7eD6A4LlE">Plant A Tree</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./category.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactus.html">Contact Us</a>
+              </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a href="./search.html">
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0 search-btn"
+                  type="button"
+                >
+                  Search
+                </button>
+                </a>
+              <a href="cart.html"
+                ><i class="fas fa-shopping-cart shop-icon"></i
+              ></a>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="checkout-section mb-5 pb-5" id="checkout-section">
+      <div class="container">
+        <div class="mb-5">
+          <h1 class="cart-heading">CheckOut</h1>
+        </div>
+        <div class="row rounded">
+          <div
+            class="col-md-8 border-right border-top border-left border-bottom shadow"
+          >
+            <h6 class="bill-heading">Biling Details</h6>
+            <form>
+              <div class="d-flex">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">First Name</label>
+                  <input
+                  required
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="eg: John"
+                  />
+                </div>
+                <div class="form-group lastName">
+                  <label for="exampleInputEmail1">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="eg: Slick"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                required
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Phone Number</label>
+                <input
+                required
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="eg: +91 123456789"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Country</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>India</option>
+                  <option>USA</option>
+                  <option>Australia</option>
+                  <option>Japan</option>
+                  <option>Russia</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Address Line 1</label>
+                <input
+                required
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="House Number and Street Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Address Line 2</label>
+                <input
+                required
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="House Number and Street Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Post Code / ZIP</label>
+                <input
+                required
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="ZIP Code"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Town / City</label>
+                <input
+                required
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="City Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"
+                  >Additional Information</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-success btn-lg mb-4 mt-3">
+                  <span><i class="fa fa-leaf" aria-hidden="true"></i></i></span
+                  >Plant
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 rounded mt-5">
+            <h5 class="mb-4">Order Summary</h5>
+            <div class="mt-3 border-bottom">
+              <div class="d-flex justify-content-between">
+                <p class="">Adonis Plant</p>
+                <p class="muted small">Qty 1</p>
+                <b>$55</b>
+              </div>
+              <div class="d-flex justify-content-between">
+                <p class="">Allium Plant</p>
+                <p class="muted small">Qty 1</p>
+                <b>$25</b>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <div>
+                <h5><b>Total Amount</b></h5>
+                <h6 class="muted"><b>( Including VAT )</b></h6>
+              </div>
+              <div>
+                <b>$80</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer pb-2 pt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-6 pl-5 pl-small-15 footer-first">
+            <img src="./images/logo.png" alt="Plant A Tree"  class="img img-fluid">
+            <div class="plant-foot-text">
+              It is the time we must put a restriction on the cutting of trees and encourage  other people to plant more of them.
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+            <h1>Quick Links</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Offers & Discounts</a></li>
+                <li><a href="#">Get Coupons</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+            <h1>New Products</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">Daylight Plants</a></li>
+                <li><a href="#">Night Plants</a></li>
+                <li><a href="#">Cactus</a></li>
+                <li><a href="#">Flowers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="footer_title pt-3 mb-5">
+            <h1>Support</h1>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Report</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="border-top">
+          <a href="https://github.com/Tushardeepak"><h6 class="text-center mt-3">Copyright @Tushardeepak</h6></a>
+        </div>
+      </div>
+  </footer>
+    <div class="backtop">
+      <a
+        href="#top"
+        id="button"
+        class="btn btn-lg btn-outline-success"
+        role="button"
+      >
+        <i class="fas fa-chevron-up text-dark"></i>
+      </a>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
